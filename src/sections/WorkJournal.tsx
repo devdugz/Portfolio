@@ -9,15 +9,7 @@ import { blogPosts } from '@/data/blogPosts';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { motion, AnimatePresence } from 'framer-motion';
-
-interface BlogPost {
-  title: string;
-  date: string;
-  description: string;
-  image: string;
-  tag: string;
-  fullContent?: string; // Add this new field
-}
+import { BlogPost } from '@/data/blogPosts';
 
 const WorkJournal = () => {
   const [currentPage, setCurrentPage] = useState(1);
