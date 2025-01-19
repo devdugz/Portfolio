@@ -11,16 +11,18 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export default function Home() {
   return (
-    <div>
+    <div className='min-h-screen overflow-x-hidden'>
       <SpeedInsights />
       <Header />
-      <HeroSection />
-      <AboutSection />
-      <Experience />
-      <TapeSection />
-      <ProjectsSection />
-      <WorkJournal />
-      <ContactSection />
+      <main className='px-4 md:px-6 lg:px-8'>
+        <HeroSection />
+        <AboutSection />
+        <Experience />
+        <TapeSection />
+        <ProjectsSection />
+        <WorkJournal />
+        <ContactSection />
+      </main>
       <Footer />
     </div>
   );
