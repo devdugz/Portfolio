@@ -21,29 +21,6 @@ export interface BlogPost {
   tag: string;
 }
 
-const blogContentPath = path.join(process.cwd(), 'content/blog');
-
-export async function getBlogPosts() {
-  const posts = await Promise.all(
-    fs.readdirSync(blogContentPath).map(async (filename) => {
-      const filePath = path.join(blogContentPath, filename);
-      const content = fs.readFileSync(filePath, 'utf8');
-      const htmlContent = await parseMarkdown(content);
-
-      return {
-        title: 'Your Title',
-        date: 'Your Date',
-        preview: content.slice(0, 200) + '...',
-        content: htmlContent,
-        image: '/.jpg',
-        tag: 'Your Tag',
-      };
-    })
-  );
-
-  return posts;
-}
-
 export const blogPosts: BlogPost[] = [
   {
     title: 'Work Journal - Week 1',
