@@ -7,6 +7,7 @@ import { TapeSection } from '@/sections/Tape';
 import { Footer } from '@/sections/Footer';
 import { ContactSection } from '@/sections/Contact';
 import WorkJournal from '@/sections/WorkJournal';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export default function Home() {
   return (
