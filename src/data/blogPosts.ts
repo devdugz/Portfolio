@@ -1,3 +1,4 @@
+// test
 import WJ1 from '@/components/content/blog/WJ1.md';
 import WJ2 from '@/components/content/blog/WJ2.md';
 import WJ3 from '@/components/content/blog/WJ3.md';
@@ -111,6 +112,14 @@ export const blogPosts: BlogPost[] = [
   {
     title: 'Work Journal - Week 12',
     date: 'January 18, 2025',
+    preview: 'This week I...',
+    content: WJ8,
+    image: '/images/workjournal/WJ3.jpg',
+    tag: 'Development',
+  },
+  {
+    title: 'Work Journal - Week 13',
+    date: 'January 25, 2025',
     preview: 'This week I...',
     content: WJ8,
     image: '/images/workjournal/WJ3.jpg',
