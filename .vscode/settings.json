@@ -1,0 +1,19 @@
+{
+  "cSpell.words": ["aboutme", "calistoga", "memoji", "rockpaperscissor"],
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.fontWeight": "bold",
+  "editor.fontSize": 12,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["text.html.basic", "text.html.tsx", "meta.jsx.children.tsx"],
+        "settings": {
+          "foreground": "#FFD700"
+        }
+      }
+    ]
+  }
+}
