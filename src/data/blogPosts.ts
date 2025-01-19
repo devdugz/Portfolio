@@ -1,5 +1,3 @@
-import path from 'path';
-import { parseMarkdown } from '@/utils/markdownParser';
 import WJ1 from '@/components/content/blog/WJ1.md';
 import WJ2 from '@/components/content/blog/WJ2.md';
 import WJ3 from '@/components/content/blog/WJ3.md';
