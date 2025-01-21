@@ -38,7 +38,7 @@ const projects = [
       'Postgres',
       'Ruby on Rails',
       'Chart.js',
-      'YouTube iFrome API',
+      'YouTube iFrame API',
     ],
     isTopProject: true,
   },
