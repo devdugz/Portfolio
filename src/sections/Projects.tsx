@@ -15,7 +15,7 @@ import { ScrollArea } from '@/components/ui/scroll-area';
 
 const projects = [
   {
-    name: 'Productivity App',
+    name: 'FocusWave',
     description: `
       This is a full-stack productivity application built with React and Ruby on Rails,
       designed to help users manage their study sessions and track productivity. The app features
@@ -30,7 +30,7 @@ const projects = [
       both light and dark modes, and uses session-based authentication for user management.
     `,
     image: productivityAppImage,
-    link: 'test.com',
+    link: 'https://focuswave.ai',
     repo: 'https://github.com/devdugz',
     tech: [
       'React.js',
