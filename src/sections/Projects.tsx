@@ -31,7 +31,7 @@ const projects = [
     `,
     image: productivityAppImage,
     link: 'https://focuswave.ai',
-    repo: 'https://github.com/devdugz',
+    repo: 'https://github.com/devdugz/Productivity-App-Frontend',
     tech: [
       'React.js',
       'TailwindCSS',
@@ -48,8 +48,8 @@ const projects = [
     This Magic Mirror project is a smart home display application that transforms a Raspberry Pi, TV screen, and two-way mirror into an interactive information dashboard. Built primarily with Node.js and Electron for the application framework, it uses modern web technologies (HTML, CSS, JavaScript) to render modules that display real-time data like weather conditions (via OpenWeather API) and calendar events (through iCal integration). The application follows a modular architecture pattern, allowing for easy extension and customization of display widgets. Running on a Raspberry Pi (Linux-based system), it creates a sleek, minimalist interface that appears to float on the mirror's surface while providing daily information at a glance. The project demonstrates full-stack development capabilities, combining hardware integration with software development, API interactions, and frontend display logic.
     `,
     image: magicmirrorImage,
-    link: 'test.com',
-    repo: 'https://github.com/devdugz',
+    link: 'https://github.com/devdugz/MagicMirror',
+    repo: 'https://github.com/devdugz/MagicMirror',
     tech: [
       'Node.js',
       'HTML',
@@ -68,8 +68,8 @@ const projects = [
     This Python script automates the golf bay booking process at PGA facilities using web automation and scheduling technologies. Built with Selenium WebDriver and ChromeDriver for browser automation, the script navigates through the PGA's booking system to secure practice bays during desired time slots. It implements a multi-bay fallback system, attempting bookings first in a primary bay (Bay 5) before trying two backup options (Bay 7 and Any Bay). The application runs on a scheduler using APScheduler, checking for available slots every 15 minutes across multiple time preferences (4:30 PM to 6:00 PM). Environment variables are managed through python-dotenv for secure credential handling, while comprehensive logging is implemented using Python's built-in logging module. The tech stack combines Python 3.x with Selenium for web automation, ChromeDriver for browser control, APScheduler for task scheduling, and environment configuration management, all running on macOS with a command-line interface.
       `,
     image: pgascriptImage,
-    link: 'test.com',
-    repo: 'https://github.com/devdugz',
+    link: 'https://github.com/devdugz/PGA_Booking_Script',
+    repo: 'https://github.com/devdugz/PGA_Booking_Script',
     tech: [
       'Python',
       'Selenium WebDriver',
